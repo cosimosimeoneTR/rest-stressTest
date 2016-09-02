@@ -1,0 +1,6 @@
+{
+  "id" : [##PARAM_ID##],
+  "label" : "StartFrom",
+  "endLabel" : "GoTo",
+  "maxHops": 2
+}
