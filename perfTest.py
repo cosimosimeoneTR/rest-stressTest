@@ -241,7 +241,7 @@ elif parIdSpecified == True:
 if parTestFileToRun == "___ALL___":
   jsonFilesArray = ['queries/'+f for f in os.listdir('queries') if f.endswith('.json')]
 else:
-  jsonFilesArray = [parTestFileToRun]
+  jsonFilesArray = parTestFileToRun.split(',')
 logger.debug('jsonFilesArray='+' | '.join(jsonFilesArray))
 
 
